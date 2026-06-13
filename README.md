@@ -20,33 +20,6 @@ ATMInterface/
 └── README.md
 ```
 
----
-
-## ▶️ How to Run
-
-### VS Code (Recommended)
-1. Open the `ATMInterface` folder in VS Code
-2. Install **Extension Pack for Java** (by Microsoft) if needed
-3. Open `src/ATMInterface.java`
-4. Click the **▷ Run** button (top right) or press **F5**
-
-### Windows
-Double-click `run.bat`
-
-### Mac / Linux
-```bash
-chmod +x run.sh && ./run.sh
-```
-
-### Manual (any OS)
-```bash
-mkdir -p bin
-javac -d bin src/ATMInterface.java
-java -cp bin ATMInterface
-```
-
----
-
 ## 🔐 Demo Accounts
 
 | User ID | PIN  | Name             | Starting Balance |
@@ -67,8 +40,3 @@ java -cp bin ATMInterface
 - **Live balance** — Updates instantly after every operation
 
 ---
-
-## ⚙️ Requirements
-
-- **Java 8 or higher** — check with `java -version`
-- No external libraries — pure Java SE
