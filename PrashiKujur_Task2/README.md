@@ -20,30 +20,6 @@ NumberGuessingGame/
 └── README.md                     ← You are here
 ```
 
----
-
-## ▶️ How to Run
-
-### Option 1 — Double-click launcher (easiest)
-- **Windows:** Double-click `run.bat`
-- **Mac/Linux:** Open terminal → `chmod +x run.sh && ./run.sh`
-
-### Option 2 — VS Code
-1. Open the `NumberGuessingGame` folder in VS Code
-2. Install the **Extension Pack for Java** (Microsoft) if you haven't
-3. Open `src/NumberGuessingGame.java`
-4. Press **F5** or click **Run ▷** at the top right
-
-### Option 3 — Command Line (any OS)
-```bash
-# From inside the NumberGuessingGame folder:
-mkdir -p bin
-javac -d bin src/NumberGuessingGame.java
-java -cp bin NumberGuessingGame
-```
-
----
-
 ## 🎮 How to Play
 
 1. The computer picks a secret number between **1 and 100**
@@ -66,36 +42,3 @@ java -cp bin NumberGuessingGame
 | Didn't guess | 0 |
 
 ---
-
-## ⚙️ Requirements
-
-- **Java 8 or higher** (Java 11+ recommended)
-- No external libraries needed — pure Java SE
-
-Check your Java version:
-```bash
-java -version
-```
-
----
-
-## 📤 Uploading to Platforms
-
-### GitHub
-```bash
-git init
-git add .
-git commit -m "Initial commit — Number Guessing Game"
-git remote add origin https://github.com/YOUR_USERNAME/number-guessing-game.git
-git push -u origin main
-```
-
-### Replit
-1. Create a new Java Repl
-2. Upload all files maintaining the folder structure
-3. Set **Run command** to: `javac -d bin src/NumberGuessingGame.java && java -cp bin NumberGuessingGame`
-
-### Other platforms (Glitch, CodeSandbox, etc.)
-- Upload `src/NumberGuessingGame.java`
-- Compile: `javac NumberGuessingGame.java`
-- Run: `java NumberGuessingGame`
